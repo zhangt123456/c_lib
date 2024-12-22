@@ -1,7 +1,6 @@
-16:19:21 **** Incremental Build of configuration Release for project console_input_demo ****
+15:02:14 **** Incremental Build of configuration Release for project console_input_demo ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\console_input_demo.o" "..\\src\\console_input_demo.c" 
-gcc -o console_input_demo.exe "src\\console_input_demo.o" 
+gcc -o console_input_demo.exe "src\\getConsoleInput_demo.o" 
 
-16:19:22 Build Finished (took 1s.691ms)
+15:02:14 Build Finished (took 897ms)
 

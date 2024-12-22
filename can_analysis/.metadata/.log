@@ -643,3 +643,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.xilinx.sdk.utils 0 0 2024-12-22 14:47:34.514
 !MESSAGE XSCT command with result: [setws D:/myCodes/GitHub/c_lib/can_analysis], Result: [null, ]. Thread: Thread-18
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-22 15:03:45.190
+!MESSAGE Indexed 'GetConsoleInput_demo' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
