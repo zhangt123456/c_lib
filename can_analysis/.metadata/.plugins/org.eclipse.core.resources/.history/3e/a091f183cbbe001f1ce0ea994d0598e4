@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : can_analysis.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+char data[] = "1,接收,0,14:40:51.732.452 ,00:00:09.999.240 ,0x00000721,数据帧,标准帧,08,01 70 09 01 aa aa aa aa ,";
+
+raw rawData;
+
+const char *delim = ",";
+char *token;
+
+int main(void) {
+
+
+	print_raw(rawData);
+
+	return EXIT_SUCCESS;
+}

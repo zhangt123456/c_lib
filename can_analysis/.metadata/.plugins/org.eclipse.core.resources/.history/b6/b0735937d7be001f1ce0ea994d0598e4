@@ -1,0 +1,16 @@
+/*
+ * hal_define.h
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+
+#ifndef HAL_DEFINE_H_
+#define HAL_DEFINE_H_
+
+#define MAX_LOGIN_RETRY 3
+#define MAX_CAN_LINE 800000
+#define MAX_FILE_COUNT 100
+
+
+#endif /* HAL_DEFINE_H_ */

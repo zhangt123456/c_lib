@@ -1,0 +1,20 @@
+22:00:47 **** Incremental Build of configuration Release for project demo_20240620 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "srcs\\main.o" "..\\srcs\\main.c" 
+..\srcs\main.c: In function 'main':
+..\srcs\main.c:18:24: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("sizeof(i) = %llu\n",sizeof(i));
+                        ^
+..\srcs\main.c:18:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("sizeof(i) = %llu\n",sizeof(i));
+         ^~~~~~~~~~~~~~~~~~~~
+..\srcs\main.c:18:24: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("sizeof(i) = %llu\n",sizeof(i));
+                        ^
+..\srcs\main.c:18:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("sizeof(i) = %llu\n",sizeof(i));
+         ^~~~~~~~~~~~~~~~~~~~
+gcc -o demo_20240620.exe "srcs\\main.o" 
+
+22:00:50 Build Finished (took 2s.967ms)
+

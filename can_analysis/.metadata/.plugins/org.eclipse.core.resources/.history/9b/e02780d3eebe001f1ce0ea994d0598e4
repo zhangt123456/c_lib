@@ -1,0 +1,66 @@
+/*
+ * fml_user.c
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+#include <stdio.h>
+#include "fml_user.h"
+
+int get_user_info()
+{
+	printf("user name:");
+	gets(user_input.name);
+	printf("user_input.name = %s\n",user_input.name);
+
+	printf("pass word:");
+	gets(user_input.password);
+	printf("user_input.password = %s\n",user_input.password);
+
+	return 0;
+}
+
+int check_user_info_head()
+{
+	char user_info_line[128];
+
+	fb = fopen(USER_INFO_PATH,"r");
+}
+
+int user_check()
+{
+	USER_INFO user_info;
+	char user_info_line[128];
+
+	FILE *fb;
+
+	fb = fopen("./usr_info.csv","r");
+
+	//check file
+	if(fb == NULL)
+	{
+		printf("can not find user_info.csv\n");
+		return 1;
+	}
+
+	//check head line
+	if(strcmp(user_info.head_line, user_info_head) != 0)
+	{
+		printf("usr_info.csv headline wrong!!\n");
+		return 2;
+	}
+
+
+	for(int i=0;i<30;i++)
+	{
+		if(fgets(user_info.head_line,128,fb)==NULL) break;
+		printf("i=%d ",i);
+		printf("user_info.head_line=%s\n",user_info.head_line);
+	}
+
+
+
+	fclose(fb);
+
+	return 0;
+}

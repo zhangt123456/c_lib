@@ -1,0 +1,18 @@
+/*
+ * hal_define.h
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+
+#ifndef HAL_DEFINE_H_
+#define HAL_DEFINE_H_
+
+#define MAX_LOGIN_RETRY 3
+#define MAX_CAN_LINE 800000
+#define MAX_FILE_COUNT 100
+
+#define USER_INFO_PATH "./user_info.csv"
+#define user_info_head[] "用户编号,用户等级,姓名,账号,密码";
+
+#endif /* HAL_DEFINE_H_ */

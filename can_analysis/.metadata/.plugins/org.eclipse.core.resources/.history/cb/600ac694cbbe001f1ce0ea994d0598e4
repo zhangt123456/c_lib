@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : can_analysis.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int curr_state = 0;
+int next_state = 0;
+
+int main(void) {
+
+	while(1)
+	{
+		switch(current_state)
+		{
+			case 0:
+			{
+				next
+			}
+			break;
+
+
+
+			default:
+		}
+	}
+
+	return EXIT_SUCCESS;
+}

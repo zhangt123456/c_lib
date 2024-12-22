@@ -1,0 +1,25 @@
+/*
+ * hal_user.h
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+
+#ifndef HAL_USER_H_
+#define HAL_USER_H_
+
+typedef struct{
+	char name[32];
+	char passworld[16];
+
+	char name_md5[64];
+	char password_md5[64];
+}user_input;
+
+typedef struct{
+
+}user_info;
+
+
+
+#endif /* HAL_USER_H_ */

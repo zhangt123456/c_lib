@@ -1,0 +1,63 @@
+/*
+ ============================================================================
+ Name        : can_analysis.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int curr_state = 0;
+int next_state = 0;
+
+int main(void) {
+
+	while(1)
+	{
+		switch(curr_state)
+		{
+			case 0:
+			{
+				//打印软件信息
+				next_state = 1;
+			}break;
+
+			case 1:
+			{
+				//确认是否有软件需要分析
+				next_state = 2;
+			}break;
+
+			case 2:
+			{
+				//确认用户信息
+				next_state = 3;
+			}break;
+
+			case 3:
+			{
+				//文件分析
+				next_state = 4;
+			}break;
+
+			case 4:
+			{
+				//
+				system("pause");
+				return 0;
+			}break;
+
+
+			default:
+		}
+	}
+
+	curr_state = next_state;
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,49 @@
+17:04:19 **** Incremental Build of configuration Release for project can_analysis ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
+..\src\fml_user.c: In function 'check_user_info_head':
+..\src\fml_user.c:26:8: warning: variable 'fb' set but not used [-Wunused-but-set-variable]
+  FILE *fb;
+        ^~
+..\src\fml_user.c:25:7: warning: unused variable 'user_info_line' [-Wunused-variable]
+  char user_info_line[128];
+       ^~~~~~~~~~~~~~
+..\src\fml_user.c: In function 'user_check':
+..\src\fml_user.c:102:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+   printf("strlen(user_info_line) = %d\n",strlen(user_info_line));
+                                    ~^    ~~~~~~~~~~~~~~~~~~~~~~
+                                    %I64d
+..\src\fml_user.c:102:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+   printf("strlen(user_info_line) = %d\n",strlen(user_info_line));
+                                    ~^    ~~~~~~~~~~~~~~~~~~~~~~
+                                    %I64d
+..\src\fml_user.c:105:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+   printf("strlen(user_info_head) = %d\n",strlen(user_info_head));
+                                    ~^    ~~~~~~~~~~~~~~~~~~~~~~
+                                    %I64d
+..\src\fml_user.c:105:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+   printf("strlen(user_info_head) = %d\n",strlen(user_info_head));
+                                    ~^    ~~~~~~~~~~~~~~~~~~~~~~
+                                    %I64d
+..\src\fml_user.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+     printf("strlen(user_info.passworld_md5) = %d\n",strlen(user_info.passworld_md5));
+                                               ~^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                               %I64d
+..\src\fml_user.c:126:48: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+     printf("strlen(user_info.passworld_md5) = %d\n",strlen(user_info.passworld_md5));
+                                               ~^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                               %I64d
+..\src\fml_user.c:128:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+     printf("strlen(user_input.password) = %d\n",strlen(user_input.password));
+                                           ~^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           %I64d
+..\src\fml_user.c:128:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+     printf("strlen(user_input.password) = %d\n",strlen(user_input.password));
+                                           ~^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           %I64d
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
+gcc -o can_analysis.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
+
+17:04:23 Build Finished (took 3s.331ms)
+

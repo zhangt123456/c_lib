@@ -1,0 +1,16 @@
+/*
+ * hal_user.h
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+
+#ifndef HAL_USER_H_
+#define HAL_USER_H_
+
+typedef struct{
+
+
+}user_info;
+
+#endif /* HAL_USER_H_ */

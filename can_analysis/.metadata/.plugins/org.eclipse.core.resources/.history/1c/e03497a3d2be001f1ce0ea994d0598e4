@@ -1,0 +1,14 @@
+/*
+ * bl_info.c
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+
+#include "bl_info.h"
+
+void printInfo()
+{
+	printf("MAX_LOGIN_RETRY = %d\n"MAX_LOGIN_RETRY);
+
+}

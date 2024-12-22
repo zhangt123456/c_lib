@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : fgetline_demo.c
+ Author      : zht
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include "fgetline.h"
+
+
+int main(void) {
+
+	char s[128] = {0};
+	FILE *fb = fopen("abc.txt","r");
+		fgetline(s,sizeof(s)/sizeof(s[0]),fb);
+		printf("s = %s\n",s);
+		printf("strlen(s)= %d\n",(int)strlen(s));
+
+	fclose(fb);
+
+	system("pause");
+	return EXIT_SUCCESS;
+}

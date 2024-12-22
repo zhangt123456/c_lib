@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : fgetline_demo.c
+ Author      : zht
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+char *fgetline(char *str, int n, FILE *stream)
+{
+	fgets(char *str, int n, FILE *stream);
+
+}
+int main(void) {
+
+	return EXIT_SUCCESS;
+}

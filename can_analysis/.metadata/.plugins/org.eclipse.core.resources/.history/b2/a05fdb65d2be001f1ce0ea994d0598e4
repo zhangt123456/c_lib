@@ -1,0 +1,14 @@
+/*
+ * bl_info.h
+ *
+ *  Created on: Dec 20, 2024
+ *      Author: zht
+ */
+
+#ifndef BL_INFO_H_
+#define BL_INFO_H_
+
+#include "hal_define.h"
+
+
+#endif /* BL_INFO_H_ */
