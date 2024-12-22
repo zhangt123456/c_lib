@@ -6,11 +6,11 @@
 <booleanAttribute key="org.eclipse.cdt.debug.mi.core.verboseMode" value="false"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="org.eclipse.cdt.debug.mi.core.MinGW"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\canAnalysis_demo.exe"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="canAnalysis_demo"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\CanAnalysis_demo.exe"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="CanAnalysis_demo"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="cdt.managedbuild.config.gnu.mingw.exe.debug.567576567"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/canAnalysis_demo"/>
+<listEntry value="/CanAnalysis_demo"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

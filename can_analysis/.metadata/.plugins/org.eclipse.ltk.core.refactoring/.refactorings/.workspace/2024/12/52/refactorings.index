@@ -3,3 +3,5 @@
 1734851142329	Delete resource 'GetConsoleInput_demo/Debug/console_input_demo.exe'
 1734851148635	Delete resource 'GetConsoleInput_demo/Release/console_input_demo.exe'
 1734851292335	Rename resource 'can_analysis'
+1734859911010	Rename resource 'canAnalysis_demo'
+1734859951059	Rename resource 'fgetline_demo'

@@ -1,12 +1,5 @@
-15:16:41 **** Incremental Build of configuration Debug for project canAnalysis_demo ****
+17:32:05 **** Incremental Build of configuration Debug for project fgetline_demo ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
-gcc -o canAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
-15:16:45 **** Incremental Build of configuration Release for project canAnalysis_demo ****
-Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
-gcc -o canAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
+gcc -o fgetline_demo.exe "src\\fgetline_demo.o" 
+Info: Nothing to build for fgetline_demo
