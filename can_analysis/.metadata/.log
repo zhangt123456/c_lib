@@ -646,3 +646,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-12-22 15:03:45.190
 !MESSAGE Indexed 'GetConsoleInput_demo' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-22 15:08:13.866
+!MESSAGE Indexed 'canAnalysis_demo' (3 sources, 29 headers) in 0.959 sec: 2,811 declarations; 3,732 references; 0 unresolved inclusions; 0 syntax errors; 37 unresolved names (0.56%)

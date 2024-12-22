@@ -1,8 +1,22 @@
-15:03:54 **** Rebuild of configuration Debug for project GetConsoleInput_demo ****
+15:09:16 **** Incremental Build of configuration Debug for project canAnalysis_demo ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\getConsoleInput_demo.o" "..\\src\\getConsoleInput_demo.c" 
-gcc -o GetConsoleInput_demo.exe "src\\getConsoleInput_demo.o" 
-15:03:56 **** Rebuild of configuration Release for project GetConsoleInput_demo ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
+..\src\fml_user.c: In function 'check_user_info_head':
+..\src\fml_user.c:28:2: warning: implicit declaration of function 'fcolse'; did you mean 'fclose'? [-Wimplicit-function-declaration]
+  fcolse(fb);
+  ^~~~~~
+  fclose
+..\src\fml_user.c:25:7: warning: unused variable 'user_info_line' [-Wunused-variable]
+  char user_info_line[128];
+       ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
+gcc -o canAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
+src\fml_user.o: In function `check_user_info_head':
+D:\myCodes\GitHub\c_lib\can_analysis\canAnalysis_demo\Debug/../src/fml_user.c:28: undefined reference to `fcolse'
+collect2.exe: error: ld returned 1 exit status
+15:09:20 **** Incremental Build of configuration Release for project canAnalysis_demo ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\getConsoleInput_demo.o" "..\\src\\getConsoleInput_demo.c" 
-gcc -o GetConsoleInput_demo.exe "src\\getConsoleInput_demo.o" 
+gcc -o canAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
+src\fml_user.o:fml_user.c:(.text+0x8b): undefined reference to `fcolse'
+collect2.exe: error: ld returned 1 exit status

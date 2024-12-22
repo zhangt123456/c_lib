@@ -1,2 +1,5 @@
 1734850113166	Delete resource 'demo_20240620'
 1734851024666	Rename resource 'console_input_demo'
+1734851142329	Delete resource 'GetConsoleInput_demo/Debug/console_input_demo.exe'
+1734851148635	Delete resource 'GetConsoleInput_demo/Release/console_input_demo.exe'
+1734851292335	Rename resource 'can_analysis'

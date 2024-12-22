@@ -1,7 +1,1 @@
-15:03:56 **** Rebuild of configuration Release for project GetConsoleInput_demo ****
-Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\getConsoleInput_demo.o" "..\\src\\getConsoleInput_demo.c" 
-gcc -o GetConsoleInput_demo.exe "src\\getConsoleInput_demo.o" 
-
-15:03:57 Build Finished (took 1s.708ms)
-
+Info: Nothing to build for GetConsoleInput_demo

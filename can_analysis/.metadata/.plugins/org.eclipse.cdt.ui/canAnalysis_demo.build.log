@@ -1,0 +1,8 @@
+15:09:20 **** Incremental Build of configuration Release for project canAnalysis_demo ****
+Info: Internal Builder is used for build
+gcc -o canAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
+src\fml_user.o:fml_user.c:(.text+0x8b): undefined reference to `fcolse'
+collect2.exe: error: ld returned 1 exit status
+
+15:09:20 Build Finished (took 797ms)
+
