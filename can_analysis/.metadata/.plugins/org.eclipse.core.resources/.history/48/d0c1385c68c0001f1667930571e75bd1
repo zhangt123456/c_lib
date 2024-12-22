@@ -1,0 +1,60 @@
+/*
+ ============================================================================
+ Name        : helloworld.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "string2digit.h"
+
+char len[] = "08";
+char num[] = "123456789aBcdef01234";
+char s[] = " dh jf dks ljd k ";
+
+
+
+int main(void) {
+
+
+	printf("sizeof(u8) = %d\n",(int)sizeof(u8));
+	printf("sizeof(u16) = %d\n",(int)sizeof(u16));
+	printf("sizeof(u32) = %d\n",(int)sizeof(u32));
+	printf("sizeof(u64) = %d\n",(int)sizeof(u64));
+	printf("\n");
+
+	printf("len = %d\n",string2byte(len));
+	printf("len = 0x%x\n",string2byte(len));
+	printf("\n");
+
+	printf("num = 0x%64d\n",(int)string2hex(num));
+	printf("num = 0x%x\n",(int)string2hex(num));
+	printf("\n");
+
+	u8 v[8]={0};
+	for(int i=0;i<8;i++)
+		printf("%x, ",v[i]);
+	printf("\n\n");
+
+	string2array(num , v);
+
+	for(int i=0;i<8;i++)
+		printf("%x, ",v[i]);
+	printf("\n\n");
+
+	printf("s= |%s|\n", s);
+	removeSpace(s,' ');
+	printf("s= |%s|\n", s);
+
+	system("pause");
+	return EXIT_SUCCESS;
+}
+
+
+

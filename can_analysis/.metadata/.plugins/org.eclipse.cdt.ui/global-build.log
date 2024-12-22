@@ -1,14 +1,36 @@
-19:00:35 **** Incremental Build of configuration Debug for project CanAnalysis_demo ****
+21:30:53 **** Incremental Build of configuration Debug for project String2digit_demo ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hal_define.o" "..\\src\\hal_define.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
-gcc -o CanAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" "src\\hal_define.o" 
-19:00:40 **** Incremental Build of configuration Release for project CanAnalysis_demo ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\helloworld.o" "..\\src\\helloworld.c" 
+..\src\helloworld.c: In function 'main':
+..\src\helloworld.c:36:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("num = %lld\n",string2hex(num));
+                  ^
+..\src\helloworld.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("num = %lld\n",string2hex(num));
+         ^~~~~~~~~~~~~~
+..\src\helloworld.c:36:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("num = %lld\n",string2hex(num));
+                  ^
+..\src\helloworld.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("num = %lld\n",string2hex(num));
+         ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string2digit.o" "..\\src\\string2digit.c" 
+gcc -o String2digit_demo.exe "src\\helloworld.o" "src\\string2digit.o" 
+21:30:56 **** Incremental Build of configuration Release for project String2digit_demo ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\hal_define.o" "..\\src\\hal_define.c" 
-gcc -o CanAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" "src\\hal_define.o" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\string2digit.o" "..\\src\\string2digit.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\helloworld.o" "..\\src\\helloworld.c" 
+..\src\helloworld.c: In function 'main':
+..\src\helloworld.c:36:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("num = %lld\n",string2hex(num));
+                  ^
+..\src\helloworld.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("num = %lld\n",string2hex(num));
+         ^~~~~~~~~~~~~~
+..\src\helloworld.c:36:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("num = %lld\n",string2hex(num));
+                  ^
+..\src\helloworld.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("num = %lld\n",string2hex(num));
+         ^~~~~~~~~~~~~~
+gcc -o String2digit_demo.exe "src\\helloworld.o" "src\\string2digit.o" 
