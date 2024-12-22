@@ -1,5 +1,8 @@
-17:32:05 **** Incremental Build of configuration Debug for project fgetline_demo ****
+18:00:59 **** Rebuild of configuration Debug for project FGetLine_demo ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
-gcc -o fgetline_demo.exe "src\\fgetline_demo.o" 
-Info: Nothing to build for fgetline_demo
+gcc -o FGetLine_demo.exe "src\\fgetline_demo.o" 
+18:01:01 **** Rebuild of configuration Release for project FGetLine_demo ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
+gcc -o FGetLine_demo.exe "src\\fgetline_demo.o" 
