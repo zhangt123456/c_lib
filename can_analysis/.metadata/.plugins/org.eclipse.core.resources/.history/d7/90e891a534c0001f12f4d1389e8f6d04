@@ -22,10 +22,10 @@ int get_user_info()
 
 int check_user_info_head()
 {
-	//char user_info_line[128];
+	char user_info_line[128];
 	FILE *fb = fopen(USER_INFO_PATH,"r");
 
-	fclose(fb);
+	fcolse(fb);
 
 	return 0;
 }
