@@ -8,11 +8,14 @@
 #ifndef HAL_DEFINE_H_
 #define HAL_DEFINE_H_
 
+#include <stdio.h>
+
 #define MAX_LOGIN_RETRY 3
 #define MAX_CAN_LINE 800000
 #define MAX_FILE_COUNT 100
 
 #define USER_INFO_PATH "./usr_info.csv"
 
+void drawLine(int len, char c );
 
 #endif /* HAL_DEFINE_H_ */

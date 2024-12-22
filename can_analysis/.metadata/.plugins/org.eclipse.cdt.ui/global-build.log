@@ -1,8 +1,14 @@
-18:00:59 **** Rebuild of configuration Debug for project FGetLine_demo ****
+19:00:35 **** Incremental Build of configuration Debug for project CanAnalysis_demo ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
-gcc -o FGetLine_demo.exe "src\\fgetline_demo.o" 
-18:01:01 **** Rebuild of configuration Release for project FGetLine_demo ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hal_define.o" "..\\src\\hal_define.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
+gcc -o CanAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" "src\\hal_define.o" 
+19:00:40 **** Incremental Build of configuration Release for project CanAnalysis_demo ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
-gcc -o FGetLine_demo.exe "src\\fgetline_demo.o" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\hal_define.o" "..\\src\\hal_define.c" 
+gcc -o CanAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" "src\\hal_define.o" 

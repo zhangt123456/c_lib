@@ -13,9 +13,4 @@ void printInfo()
 	printf("MAX_LOGIN_RETRY = %d\n", MAX_LOGIN_RETRY);
 	printf("MAX_CAN_LINE = %d\n", MAX_CAN_LINE);
 	printf("MAX_FILE_COUNT = %d\n", MAX_FILE_COUNT);
-
-	for(int i=0;i<64;i++)
-		printf("-");
-	printf("\n");
-
 }

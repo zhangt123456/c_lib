@@ -1,9 +1,10 @@
-15:16:45 **** Incremental Build of configuration Release for project canAnalysis_demo ****
+19:00:40 **** Incremental Build of configuration Release for project CanAnalysis_demo ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
 gcc -O3 -Wall -c -fmessage-length=0 -o "src\\bl_info.o" "..\\src\\bl_info.c" 
-gcc -o canAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\AAA.o" "..\\src\\AAA.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fml_user.o" "..\\src\\fml_user.c" 
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\hal_define.o" "..\\src\\hal_define.c" 
+gcc -o CanAnalysis_demo.exe "src\\AAA.o" "src\\bl_info.o" "src\\fml_user.o" "src\\hal_define.o" 
 
-15:16:48 Build Finished (took 3s.254ms)
+19:00:44 Build Finished (took 4s.74ms)
 

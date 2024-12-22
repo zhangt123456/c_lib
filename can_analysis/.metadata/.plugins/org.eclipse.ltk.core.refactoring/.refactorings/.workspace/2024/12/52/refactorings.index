@@ -5,3 +5,5 @@
 1734851292335	Rename resource 'can_analysis'
 1734859911010	Rename resource 'canAnalysis_demo'
 1734859951059	Rename resource 'fgetline_demo'
+1734863354845	Delete resource 'CanAnalysis_demo/Debug/can_analysis.exe'
+1734863360134	Delete resource 'CanAnalysis_demo/Release/can_analysis.exe'
