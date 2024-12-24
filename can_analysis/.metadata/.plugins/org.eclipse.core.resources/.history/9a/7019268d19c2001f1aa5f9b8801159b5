@@ -23,9 +23,9 @@ char s[] = " dh jf dks ljd k ";
 int main(void) {
 
 
-	printf("sizeof(u8) = %llu\n",sizeof(u8));
-	printf("sizeof(u16) = %llu\n",sizeof(u16));
-	printf("sizeof(u32) = %llu\n",sizeof(u32));
+	printf("sizeof(u8) = %d\n",(int)sizeof(u8));
+	printf("sizeof(u16) = %d\n",(int)sizeof(u16));
+	printf("sizeof(u32) = %d\n",(int)sizeof(u32));
 	printf("sizeof(u64) = %llu\n",sizeof(u64));
 	printf("\n");
 
@@ -34,7 +34,7 @@ int main(void) {
 	printf("\n");
 
 	printf("num = %lld\n",string2hex(num));
-	printf("num = 0x%llx\n",string2hex(num));
+	printf("num = 0x%x\n",(int)string2hex(num));
 	printf("\n");
 
 	u8 v[8]={0};

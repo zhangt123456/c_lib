@@ -34,7 +34,7 @@ int main(void) {
 	printf("\n");
 
 	printf("num = %lld\n",string2hex(num));
-	printf("num = 0x%llx\n",string2hex(num));
+	printf("num = 0x%x\n",(int)string2hex(num));
 	printf("\n");
 
 	u8 v[8]={0};
