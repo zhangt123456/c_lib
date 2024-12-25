@@ -3,3 +3,6 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\GetFileType_demo.o" "..\\src\\GetFileType_demo.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\GetFileType.o" "..\\src\\GetFileType.c" 
 gcc -o GetFileType_demo.exe "src\\GetFileType.o" "src\\GetFileType_demo.o" 
+
+00:48:34 Build Finished (took 2s.409ms)
+

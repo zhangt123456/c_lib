@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GetFileType_demo/src/GetFileTpye.h&apos; to &apos;GetFileType.h&apos;" description="Rename resource &apos;GetFileTpye.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/GetFileTpye.h" name="GetFileType.h" stamp="1735145231509" updateReferences="true"/>
+</session>

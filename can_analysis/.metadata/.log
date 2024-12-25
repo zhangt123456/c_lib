@@ -1403,3 +1403,55 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.xilinx.sdk.utils 0 0 2024-12-25 01:02:48.699
 !MESSAGE XSCT command with result: [setws D:/myCodes/GitHub/c_lib/can_analysis], Result: [null, ]. Thread: Thread-19
+!SESSION 2024-12-26 00:40:31.503 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2024-12-26 00:41:33.053
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-26 00:41:33.053
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2024-12-26 00:41:34.636
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-26 00:41:34.636
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-12-26 00:41:54.673
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-12-26 00:41:54.673
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-12-26 00:41:54.685
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-12-26 00:41:54.709
+!MESSAGE XSCT Command: [setws D:/myCodes/GitHub/c_lib/can_analysis], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-12-26 00:42:01.202
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-12-26 00:42:01.203
+!MESSAGE XSCT command with result: [setws D:/myCodes/GitHub/c_lib/can_analysis], Result: [null, ]. Thread: Thread-17
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-26 00:42:25.123
+!MESSAGE Indexed 'GetFileType_demo' (1 sources, 22 headers) in 1.17 sec: 2,209 declarations; 3,231 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-26 00:45:17.423
+!MESSAGE Indexed 'CanAnalysis_demo' (4 sources, 31 headers) in 0.528 sec: 2,844 declarations; 4,181 references; 0 unresolved inclusions; 0 syntax errors; 37 unresolved names (0.52%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-26 00:45:18.174
+!MESSAGE Indexed 'GetConsoleInput_demo' (1 sources, 34 headers) in 0.556 sec: 3,136 declarations; 4,636 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-26 00:45:18.676
+!MESSAGE Indexed 'FGetLine_demo' (1 sources, 25 headers) in 0.323 sec: 2,767 declarations; 3,983 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-26 00:45:19.189
+!MESSAGE Indexed 'String2digit_demo' (2 sources, 26 headers) in 0.305 sec: 2,817 declarations; 4,070 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-26 00:45:19.413
+!MESSAGE Indexed 'GetFileType_demo' (1 sources, 26 headers) in 0.22 sec: 2,955 declarations; 4,311 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
