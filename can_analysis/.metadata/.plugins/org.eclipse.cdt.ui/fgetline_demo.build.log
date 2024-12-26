@@ -1,7 +1,7 @@
-18:01:01 **** Rebuild of configuration Release for project FGetLine_demo ****
+22:41:09 **** Rebuild of configuration Debug for project FGetLine_demo ****
 Info: Internal Builder is used for build
-gcc -O3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fgetline_demo.o" "..\\src\\fgetline_demo.c" 
 gcc -o FGetLine_demo.exe "src\\fgetline_demo.o" 
 
-18:01:02 Build Finished (took 1s.638ms)
+22:41:10 Build Finished (took 1s.674ms)
 

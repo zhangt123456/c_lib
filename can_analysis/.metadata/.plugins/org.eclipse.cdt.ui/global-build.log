@@ -1,5 +1,6 @@
-00:48:31 **** Incremental Build of configuration Debug for project GetFileType_demo ****
+22:42:55 **** Rebuild of configuration Debug for project ParseCanFrame ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\GetFileType_demo.o" "..\\src\\GetFileType_demo.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\GetFileType.o" "..\\src\\GetFileType.c" 
-gcc -o GetFileType_demo.exe "src\\GetFileType.o" "src\\GetFileType_demo.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parse_base.o" "..\\src\\parse_base.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parse_can_frame.o" "..\\src\\parse_can_frame.c" 
+gcc -o ParseCanFrame.exe "src\\parse_base.o" "src\\parse_can_frame.o" 
+Info: Nothing to build for ParseCanFrame
